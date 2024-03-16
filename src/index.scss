@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-prev:before,
+.slick-next:before {
+  color: #b9c9d0 !important;
+}
+.slick-prev {
+  left: 0 !important;
+  z-index: 10;
+}
+
+.slick-next {
+  right: 0 !important;
+  z-index: 10;
+}
+
+input:focus {
+  outline: none !important;
+}
